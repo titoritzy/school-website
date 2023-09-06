@@ -1,0 +1,37 @@
+.history{
+    width: 800px;
+    padding-left: 550px;
+}
+
+.history h1{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(9, 91, 158);
+}
+
+.history h2{
+    font-size: 40px;
+}
+
+.history p{
+    font-size: 24px;
+    color: rgb(37, 51, 4);
+}
+
+#p-last{
+    color: rgb(255, 127, 227);
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250%;
+    background: url('back2.jpg') repeat-x;
+    animation: moveClouds 30s linear infinite; /* Adjust the animation duration as needed */
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+}
