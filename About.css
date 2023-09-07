@@ -1,0 +1,26 @@
+<style>
+    header, section {
+        margin-bottom: 20px;
+    }
+
+    body{
+        background-image: url("./background-image.jpg");
+        text-align: block;
+    }
+
+    h1{
+    text-align-last: center;
+    }
+
+    /* styles.css */
+p {
+    color: rgb(128, 0, 90);
+}
+
+    
+    h1, h2, h3 {
+        font-weight: bold;
+        color: #3d1881;
+    }
+    
+</style>
