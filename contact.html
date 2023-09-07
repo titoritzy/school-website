@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Capital University</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Capital University</h1>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="input-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <address>
+                <p><strong>Address:</strong> 123 University Way, Capital City</p>
+                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p><strong>Email:</strong> contact@capitaluniversity.edu</p>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Capital University. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+    <!-- Add the following script tag to include Email.js -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init("lT5lDiZEdTktg2tjZ"); // Replace with your Email.js user ID
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission behavior
+
+        // You can add client-side form validation here if needed
+
+        // Send the email using Email.js
+        emailjs.sendForm('service_h7l3szx', 'template_n3oh2xr', this)
+            .then(function (response) {
+                // Handle the success response
+                console.log('Email sent successfully:', response);
+                alert('Your message has been sent successfully.');
+            }, function (error) {
+                // Handle the error response
+                console.error('Error sending email:', error);
+                alert('There was an error sending your message. Please try again later.');
+            });
+    });
+</script>
+
+</body>
+</html>
