@@ -212,3 +212,150 @@ footer .container{
     padding-left: 200px;
     padding-top: 50px;
 }
+
+
+
+
+
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Center the header content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding for responsiveness */
+}
+
+.container {
+    width: 100%; /* Adjusted to 100% width for responsiveness */
+    max-width: 1200px; /*  prevent content from becoming too wide on large screens */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* Adjust spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px; /* Adjust font size for responsiveness */
+}
+
+/* Style the sections */
+section {
+    padding: 40px 0;
+}
+
+.glance {
+    width: 100%;
+    height: auto; /* Use 'auto' for responsiveness */
+    background-color: #acacac;
+    text-align: center; /* Center the content */
+}
+
+.glance h2 {
+    font-size: 30px; /* Adjust font size for responsiveness */
+    color: rgb(94, 93, 93);
+}
+
+#glance1 p {
+    font-size: 18px; /* Adjust font size for responsiveness */
+    text-align: center; /* Center the content */
+}
+
+.vertical-line {
+    width: 3px;
+    height: 20%; /* Use '100%' for responsiveness */
+    background-color: #524f4f;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circular-arrow-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #141414;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.circular-arrow-button .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.circular-arrow-button span {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.circular-arrow-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center; /* Center the footer content */
+}
+
+footer h2 {
+    color: aqua;
+}
+
+footer .container {
+    display: flex; /* Display footer items in a row for responsiveness */
+    flex-wrap: wrap; /* Allow items to wrap onto the next row on small screens */
+    justify-content: center; /* Center items horizontally */
+}
+
+#footer1, #footer2, #footer3 {
+    width: 100%; /* Adjusted to 100% width for responsiveness */
+    max-width: 300px; /* Limit the width of each footer item */
+    padding: 0 20px; /* Adjust padding for responsiveness */
+    margin-bottom: 20px; /* Add spacing between footer items */
+    margin-left: 10%;
+}
