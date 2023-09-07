@@ -58,3 +58,30 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#StudentTestimonials {
+    background-color: #666dd8;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block; /* Display testimonials in a row */
+    vertical-align: top; /* Align testimonials at the top */
+}
+
+.testimonial img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin: 0;
+}
