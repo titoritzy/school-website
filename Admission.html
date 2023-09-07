@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital University Admission</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #004080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Capital University Admission</h1>
+    </header>
+    <div class="container">
+        <h2>Admission Form</h2>
+        <form id="admissionForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program">
+                <option value="Computer Science">Computer Science</option>
+                <option value="Business Administration">Business Administration</option>
+                <option value="Psychology">Psychology</option>
+                <!-- Add more program options here -->
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("admissionForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+           // Initialize EmailJS with your service ID
+emailjs.init("mqcoWw3uqZdda8_Xi");
+
+// Function to send the form data
+function sendForm() {
+    const form = document.getElementById("admissionForm");
+    emailjs.sendForm("service_9aqpmxs", "template_m55jbmj", form)
+        .then(function(response) {
+            console.log("Email sent successfully:", response);
+            // You can add a success message or redirect the user to a thank you page here
+        }, function(error) {
+            console.error("Email send failed:", error);
+            // You can add an error message or handle the error as needed
+        });
+}
+            alert("Thank you for submitting your application!");
+        });
+    </script>
+    
+
+</body>
+</html>
