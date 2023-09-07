@@ -1,37 +1,51 @@
-.history{
-    width: 800px;
-    padding-left: 550px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.history h1{
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url('back2.jpg') repeat-x;
+    /* animation: moveClouds 30s linear infinite; */
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.history {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto; /* Center the content horizontally */
+    padding-left: 5%; /* Use percentage for responsive padding */
+}
+
+.history h1 {
     font-size: 45px;
     text-align: center;
     color: rgb(9, 91, 158);
 }
 
-.history h2{
+.history h2 {
     font-size: 40px;
 }
 
-.history p{
+.history p {
     font-size: 24px;
     color: rgb(37, 51, 4);
 }
 
-#p-last{
-    color: rgb(255, 127, 227);
+#hlast{
+    color: hsl(224, 66%, 32%)
 }
 
-.background-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 250%;
-    background: url('back2.jpg') repeat-x;
-    animation: moveClouds 30s linear infinite; /* Adjust the animation duration as needed */
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    
+#plast{
+    background-color: hsla(0, 0%, 65%, 0.39);
+    font-weight: bolder;
 }
+
+
