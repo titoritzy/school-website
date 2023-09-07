@@ -1,0 +1,93 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7a7676;
+}
+
+/* Style the header */
+header {
+    background-color: #151b64;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the main content */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex-basis: calc(70% - 20px);
+    padding: 20px;
+    background-color: #5d7db9;
+    border-radius: 5px;
+}
+
+.contact-info {
+    flex-basis: calc(30% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #1a237e;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #267e1a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #1a237e;
+    color: #fff;
+    padding: 10px 0;
+}
