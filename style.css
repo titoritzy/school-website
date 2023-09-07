@@ -211,3 +211,96 @@ footer .container{
     padding-left: 200px;
     padding-top: 50px;
 }
+
+.background{
+    background-color: rgb(179, 176, 176);
+}
+
+.titlepart{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.coursesexplanations{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    color: grey;
+}
+
+p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-top: -16px;
+}
+
+
+.business{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 240px;
+
+}
+h3{
+    color: brown;
+    font-size: 27px;
+}
+
+.businesspart{
+    color: black;
+    margin-top: -26px;
+    font-size: 20px;
+}
+
+.button1{
+    margin-left: 1100px;
+    margin-top: -63px;
+    color: red;
+}
+
+.allcourses{
+    display: flex;
+    list-style: none;
+}
+.Credential{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 700px;
+
+    border: 2px solid black ;
+}
+
+.explanations1{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+h4{
+    text-align: center;
+    font-size: 23px;
+}
+
+.cosexpe{
+    font-size: 15px;
+}
+
+h5{
+    text-align: center;
+}
+
+.Analytics{
+    list-style: none;
+    display: flex;
+    margin-left: 730px;
+    margin-right:0px;
+    margin-top: -220px;
+    border: 2px solid black ;
+  
+}
