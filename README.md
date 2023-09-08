@@ -18,8 +18,8 @@ In-order to run the "Capital University Web-Page" you require a well working web
 Open the repository link " ", click on the leave site URL on the right hand side, copy the link, go the search button in the web-broswer, paste the link and hit enter.
 
 ## DEMOS & SCREEN-SHOTS FOR THE WEB-PAGE
-<img src="118.png">
-<img src="119.png">
+<img src="118.PNG">
+<img src="119.PNG">
 
 ## AUTHOR INFO
 The Web-Page has been develeped by Peter,  Erick, Titus and Lekeni. Having an experience of Web-Sites design and development for a period of the last and working as a group in different parts of the country.
