@@ -24,6 +24,8 @@ Open the repository link " ", click on the leave site URL on the right hand side
 ![Screenshot (128)](https://github.com/titoritzy/school-website/assets/125895000/9927bece-cc07-4b3a-954c-34e8d929c65b)
 ![Screenshot (129)](https://github.com/titoritzy/school-website/assets/125895000/f72ea966-115c-4224-8d58-79bf9b887306)
 ![Screenshot (130)](https://github.com/titoritzy/school-website/assets/125895000/7a021ae7-9629-4324-b3c0-f64e0d22fcba)
+![WhatsApp Image 2023-09-08 at 21 45 36](https://github.com/titoritzy/school-website/assets/125895000/04fd9170-f5dd-413e-8f15-2cca288bb65a)
+![Uploading WhatsApp Image 2023-09-08 at 21.46.33.jpeg…]()
 
 
 ## AUTHOR INFO
