@@ -62,6 +62,7 @@
     text-align: center;
     position: relative;
     left: 25%;
+    margin-top: -40px;
    
 }
 
@@ -149,6 +150,7 @@ section {
     color: rgb(94, 93, 93);
     text-align: left;
     padding: 50px;
+    margin-top: -280px;
 }
 
 
@@ -261,6 +263,10 @@ section {
     padding: 40px 0;
 }
 
+.universityName{
+    margin-top: -100px;
+}
+
 .glance {
     width: 100%;
     height: auto; /* Use 'auto' for responsiveness */
@@ -289,6 +295,7 @@ section {
     left: 30%;
     top: 150%;
     transform: translateX(-50%);
+    margin-top: -300px;
 
     
 }
