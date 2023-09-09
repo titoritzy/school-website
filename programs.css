@@ -94,3 +94,60 @@ h5{
   
 }
 
+.Credential :hover{
+    background-color: white;
+
+}
+.Analytics  :hover{
+    background-color: white;
+
+}
+
+.admission{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(61, 61, 61);
+    border: 2px solid white;
+    
+}
+
+.titles1{
+    color: white;
+    font-size: 30px;
+    text-underline-offset: solid white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container {
+    width: 39%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 0px;
+    padding-left: 60px;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #161616;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: white;
+}
