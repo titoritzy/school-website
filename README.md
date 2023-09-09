@@ -6,7 +6,7 @@ This is a website that talks about a university called Capital University. It gi
 
        1. HTML
        2. CSS
-
+       3. JavaScript
 
 ## PRE-REQUISITES FOR RUNNING THE WEB-PAGE
 In-order to run the "Capital University Web-Page" you require a well working web broswer. e.g:
