@@ -18,8 +18,17 @@ In-order to run the "Capital University Web-Page" you require a well working web
 Open the repository link " ", click on the leave site URL on the right hand side, copy the link, go the search button in the web-broswer, paste the link and hit enter.
 
 ## DEMOS & SCREEN-SHOTS FOR THE WEB-PAGE
-<img src="118.PNG">
-<img src="119.PNG">
+![Screenshot (125)](https://github.com/titoritzy/school-website/assets/125895000/c5889c22-ac46-4285-8d12-dc607aab3788)
+![Screenshot (126)](https://github.com/titoritzy/school-website/assets/125895000/2f542eef-bdcc-4728-b2c9-383c8a6e11c3)
+![Screenshot (127)](https://github.com/titoritzy/school-website/assets/125895000/fbb2b44a-8816-478d-a18c-2f47f0323cfb)
+![Screenshot (128)](https://github.com/titoritzy/school-website/assets/125895000/9927bece-cc07-4b3a-954c-34e8d929c65b)
+![Screenshot (129)](https://github.com/titoritzy/school-website/assets/125895000/f72ea966-115c-4224-8d58-79bf9b887306)
+![Screenshot (130)](https://github.com/titoritzy/school-website/assets/125895000/7a021ae7-9629-4324-b3c0-f64e0d22fcba)
+![WhatsApp Image 2023-09-08 at 21 45 36](https://github.com/titoritzy/school-website/assets/125895000/04fd9170-f5dd-413e-8f15-2cca288bb65a)
+
+![WhatsApp Image 2023-09-08 at 21 46 33 (1)](https://github.com/titoritzy/school-website/assets/125895000/40046194-92e8-4c99-a8d8-7e790540a558)
+
+
 
 ## AUTHOR INFO
 The Web-Page has been develeped by Peter,  Erick, Titus and Lekeni. Having an experience of Web-Sites design and development for a period of the last and working as a group in different parts of the country.

@@ -1,34 +1,39 @@
 /* design the university logo */
 
 .image{
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 40px;
 }
 
 #logo{
     padding: 0;
     margin-top: -100px ;
-    margin-left: 470px;
+    margin-left: 400px;
     margin-bottom: 30px;
     font-size: 39px;
 }
 
 .mission{
-    color: rgb(255, 255, 255);
+    color: rgb(40, 112, 7);
     text-align: center;
     font-weight: bolder;
+    background-color: rgba(95, 94, 94, 0.438);
+    height: 40px;
 }
 
 .vission{
-    color: rgb(0, 0, 0);
+    color: rgb(7, 83, 112);
     text-align: center;
     font-weight: bolder;
     margin-bottom: 30px;
+    background-color: rgba(95, 94, 94, 0.438);
+    height: 50px;
 }
 
 
 #logo h1{
     color: white;
+
 }
 
 .cloud-container {
@@ -53,7 +58,7 @@
 
 #universityName{
     width: 50%;
-    height: 700px;
+    height: 650px;
     text-align: center;
     position: relative;
     left: 25%;
@@ -73,6 +78,8 @@
 #universityName p{
     font-size: 24px;
     color: whitesmoke;
+    background-color: rgba(0, 0, 255, 0.349);
+    border-radius: 20%;
 }
 
 /* Reset some default styles */
@@ -280,7 +287,7 @@ section {
     background-color: #524f4f;
     position: absolute;
     left: 30%;
-    top: 800px;
+    top: 150%;
     transform: translateX(-50%);
 
     

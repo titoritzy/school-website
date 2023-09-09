@@ -34,8 +34,8 @@
         <section class="contact-info">
             <h2>Contact Information</h2>
             <address>
-                <p><strong>Address:</strong> 123 University Way, Capital City</p>
-                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p><strong>Address:</strong> 123 University Way, Nairobi City</p>
+                <p><strong>Phone:</strong> +2547 09 456-7890</p>
                 <p><strong>Email:</strong> capitaluniversity098@gmail.com</p>
             </address>
         </section>
@@ -48,7 +48,7 @@
     <!-- Add the following script tag to include Email.js -->
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
-    emailjs.init("lT5lDiZEdTktg2tjZ"); // Replace with your Email.js user ID
+    emailjs.init("mqcoWw3uqZdda8_Xi"); // Replace with your Email.js user ID
 
     document.getElementById('contactForm').addEventListener('submit', function (e) {
         e.preventDefault(); // Prevent the default form submission behavior
@@ -56,7 +56,7 @@
         // You can add client-side form validation here if needed
 
         // Send the email using Email.js
-        emailjs.sendForm('service_h7l3szx', 'template_n3oh2xr', this)
+        emailjs.sendForm('service_h7l3szx', 'template_hy8npe6', this)
             .then(function (response) {
                 // Handle the success response
                 console.log('Email sent successfully:', response);

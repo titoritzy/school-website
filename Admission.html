@@ -4,68 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capital University Admission</title>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="Admission.css">
 
-        header {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("mqcoWw3uqZdda8_Xi"); // Replace with your Email.js user ID
+       })();
 
-        h1 {
-            margin: 0;
-        }
+       function sendForm() {
+           const fullName = document.getElementById("fullName").value;
+           const email = document.getElementById("email").value;
+           const phoneNumber = document.getElementById("phoneNumber").value;
+           const program = document.getElementById("program").value;
 
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+           const message = `
+               Full Name: ${fullName}
+               Email: ${email}
+               Phone Number: ${phoneNumber}
+               Program of Interest: ${program}
+           `;
 
-        form {
-            margin: 20px 0;
-        }
+           const emailParams = {
+               from_name: fullName,
+               to_email: "recipient@example.com", // Replace with your email address
+               message: message,
+           };
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
+           emailjs.send("service_9aqpmxs", "template_hy8npe6", emailParams)
+               .then(function(response) {
+                   alert("Form submitted successfully. Thank you!");
+                   document.getElementById("admissionForm").reset();
+               }, function(error) {
+                   console.error("Form submission failed:", error);
+                   alert("Form submission failed. Please try again.");
+               });
 
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"],
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        input[type="submit"] {
-            background-color: #004080;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #003366;
-        }
-    </style>
+           return false;
+       }
+    </script>
 </head>
 <body>
     <header>
@@ -73,7 +50,7 @@
     </header>
     <div class="container">
         <h2>Admission Form</h2>
-        <form id="admissionForm">
+        <form id="admissionForm" onsubmit="return sendForm()">
             <label for="fullName">Full Name:</label>
             <input type="text" id="fullName" name="fullName" required>
 
@@ -92,7 +69,7 @@
                 <option value="Leadership Principles">Leadership Principles</option>
                 <option value="Launching Tech Ventures">Launching Tech Ventures</option>
                 <option value="Cybersecurity">Cybersecurity</option>
-                <option value="Telecommunication and Inforamtion Technology">Telecommunication and Inforamtion Technology</option>
+                <option value="Telecommunication and Information Technology">Telecommunication and Information Technology</option>
                 <option value="Credential of Leadership, Impact and Management in Business (CLIMB)">Credential of Leadership, Impact and Management in Business (CLIMB)</option>
                 <option value="Disruptive Strategy">Disruptive Strategy</option>
                 <option value="Design Thinking and Innovation">Design Thinking and Innovation</option>
@@ -102,29 +79,5 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-
-    <script>
-        document.getElementById("admissionForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-           // Initialize EmailJS with  service ID
-emailjs.init("mqcoWw3uqZdda8_Xi");
-
-// Function to send the form data
-function sendForm() {
-    const form = document.getElementById("admissionForm");
-    emailjs.sendForm("service_9aqpmxs", "template_m55jbmj", form)
-        .then(function(response) {
-            console.log("Email sent successfully:", response);
-            // You can add a success message or redirect the user to a thank you page here
-        }, function(error) {
-            console.error("Email send failed:", error);
-            // You can add an error message or handle the error as needed
-        });
-}
-            alert("Thank you for submitting your application!");
-        });
-    </script>
-    
-
 </body>
 </html>
