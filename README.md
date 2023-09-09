@@ -14,6 +14,8 @@ In-order to run the "Capital University Web-Page" you require a well working web
        1. Chrome
        2. Google
        3. Opera Mini
+       4. Brave
+       5. Microsoft Edge
 
 Open the repository link " ", click on the leave site URL on the right hand side, copy the link, go the search button in the web-broswer, paste the link and hit enter.
 
